@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    <h1>Welcome, <span id="username">User</span>!</h1>
+    <p>You are now logged in 🎉</p>
+    
+    <!-- Post Display Section (Read-Only) -->
+    <div class="posts-section">
+      <h2>Your Posts</h2>
+      <div class="posts">
+        <!-- Post Areas (6) -->
+        <div class="post-box">
+          <p id="post-1">Post text or image link</p>
+        </div>
+        <div class="post-box">
+          <p id="post-2">Post text or image link</p>
+        </div>
+        <div class="post-box">
+          <p id="post-3">Post text or image link</p>
+        </div>
+        <div class="post-box">
+          <p id="post-4">Post text or image link</p>
+        </div>
+        <div class="post-box">
+          <p id="post-5">Post text or image link</p>
+        </div>
+        <div class="post-box">
+          <p id="post-6">Post text or image link</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Profit/Loss Section (Read-Only) -->
+    <div class="profit-loss-section">
+      <h2>Profit / Loss</h2>
+      <div class="profit-loss">
+        <div>
+          <label>Profit: </label>
+          <p id="profit">1000</p>
+        </div>
+        <div>
+          <label>Loss: </label>
+          <p id="loss">200</p>
+        </div>
+      </div>
+    </div>
+
+    <button id="logout-btn">Logout</button>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
